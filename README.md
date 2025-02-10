@@ -1,5 +1,7 @@
 # artistvocalrange_01
 
+https://artist-vocal-range.web.app/
+
 日本語
 Artist Vocal Range (AVR) は、楽曲ごとに歌手の最高音と最低音を記録することに特化したウェブサイトです。このプロジェクトでは、
 ユーザーがそれぞれの楽曲の音域を調査し、ランキングを作成することができます。
