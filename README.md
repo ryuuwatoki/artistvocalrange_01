@@ -36,3 +36,13 @@ Artist Vocal Range (AVR) 是一個專注於記錄每首歌曲主唱的最高音�
 增加被記載的歌曲（未來將會加入）
 依據使用者資料進行個人音域分析（未來將會加入）
 社群功能（未來將會加入）
+
+<img src="./assets/IMG_1551.jpg" width="30%">
+<img src="./assets/IMG_1553.jpg" width="30%">
+<img src="./assets/IMG_1554.jpg" width="30%">
+<img src="./assets/IMG_1555.jpg" width="30%">
+<img src="./assets/IMG_1556.jpg" width="30%">
+<img src="./assets/IMG_1557.jpg" width="30%">
+<img src="./assets/IMG_1558.jpg" width="30%">
+<img src="./assets/IMG_1559.jpg" width="30%">
+<img src="./assets/IMG_1560.jpg" width="30%">
