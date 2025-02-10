@@ -2,7 +2,9 @@
 
 https://artist-vocal-range.web.app/
 
+
 日本語
+
 Artist Vocal Range (AVR) は、楽曲ごとに歌手の最高音と最低音を記録することに特化したウェブサイトです。このプロジェクトでは、
 ユーザーがそれぞれの楽曲の音域を調査し、ランキングを作成することができます。
 将来的には、ユーザー個人の音域分析やコミュニティのインタラクション機能も追加予定です。
@@ -16,6 +18,7 @@ Artist Vocal Range (AVR) は、楽曲ごとに歌手の最高音と最低音を�
 
 
 English
+
 Artist Vocal Range (AVR) is a website dedicated to recording the highest and lowest vocal ranges of singers in each song. 
 Users can explore the vocal range of each song and create rankings based on the results. 
 In the future, features like personal vocal range analysis and community interaction will be added.
@@ -27,6 +30,8 @@ Add recorded songs (coming soon)
 Personal vocal range analysis based on user data (coming soon)
 Community features (coming soon)
 
+
+繁體中文
 
 Artist Vocal Range (AVR) 是一個專注於記錄每首歌曲主唱的最高音與最低音的網站。
 使用者可以查詢每首歌曲的音域，並根據調查結果創建排行榜。
