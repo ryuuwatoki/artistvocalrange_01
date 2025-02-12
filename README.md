@@ -1,6 +1,6 @@
 # Artist Vocal Range ver01  
   
-https://artist-vocal-range.web.app/
+https://artist-vocal-range.web.app/jp
   
   
 日本語  
@@ -45,7 +45,8 @@ AVR で、音楽の限界を一緒に探求しよう！ 🎵🔥
 
   
 ---
-  
+
+https://artist-vocal-range.web.app/en
   
 English  
   
@@ -81,6 +82,7 @@ Join AVR and explore the boundaries of music together! 🎵🔥
   
 ---
   
+https://artist-vocal-range.web.app/zh
   
 繁體中文  
   
