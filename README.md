@@ -43,6 +43,31 @@ AVR で、音楽の限界を一緒に探求しよう！ 🎵🔥
 <img src="./assets/IMG_1559.jpg" width="30%">
 <img src="./assets/IMG_1560.jpg" width="30%">
 
+設定方法:  
+  
+Firebaseの初期化  
+1 Firebaseにアカウントを登録  
+2 プロジェクトを追加  
+3 アプリケーションを追加し、ウェブを選択  
+4 Authentication > メールアドレス/パスワードを追加  
+5 Firestore Databaseを追加 > 地域(自分に最も近い場所を選択) > テストモードで開始  
+  
+Reactの初期化設定  
+1 このプロジェクトをデスクトップにダウンロードして解凍  
+2 Node.jsのバージョンは20.18.2  
+3 ターミナルで npm install を実行  
+4 Firebaseプロジェクト設定 > SDK設定 > APIキー情報を .env ファイルに保存  
+5 ターミナルで npm start を実行すると、ローカルでプロジェクトが開きます。 初期化完了  
+  
+Firebase Hostingの初期化  
+1 FirebaseでHostingを追加  
+2 ターミナルで npm install -g firebase-tools を実行  
+3 ターミナルで firebase login を実行  
+4 ターミナルで firebase init を実行 > Hosting: Firebase Hostingの設定ファイルを構成し、（オプションで）GitHub Actionのデプロイを設定 > スペースバーで選択 > Enterを押す > 「What do you want to use as your public directory?」の質問で build を入力 > 「Configure as a single-page app (rewrite all urls to /index.html)?」で y を入力 > 「Set up automatic builds and deploys with GitHub?」で n を入力  
+5 ターミナルで firebase use --add を実行 > 「Which project do you want to add?」の質問でFirebaseのプロジェクト名を選択 > 「What alias do you want to use for this project?」で新しい名前を入力  
+6 ターミナルで npm run build を実行  
+7 ターミナルで firebase deploy を実行 初期化完了  
+
   
 ---
 
@@ -79,6 +104,32 @@ Future Development Plans
   
 Join AVR and explore the boundaries of music together! 🎵🔥  
   
+
+  Setup Instructions:  
+
+Firebase Initialization  
+1 Register an account on Firebase  
+2 Add a project  
+3 Add an application, choose the web option  
+4 Add Authentication > Email/Password  
+5 Add Firestore Database > Location (choose the nearest one) > Start in test mode  
+  
+React Initialization Setup  
+1 Download the project to the desktop and unzip it  
+2 Node.js version should be 20.18.2  
+3 Run npm install in the terminal  
+4 Set up Firebase project > SDK setup > Store the API key in the .env file  
+5 Run npm start in the terminal to open the project locally. Initialization is complete  
+  
+Firebase Hosting Initialization  
+1 Add Hosting in Firebase  
+2 Run npm install -g firebase-tools in the terminal  
+3 Run firebase login in the terminal  
+4 Run firebase init in the terminal > Choose Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys > Press spacebar to select > Press enter > When asked "What do you want to use as your public directory?" input build > When asked "Configure as a single-page app (rewrite all urls to /index.html)?" input y > When asked "Set up automatic builds and deploys with GitHub?" input n  
+5 Run firebase use --add in the terminal > When asked "Which project do you want to add?" select your Firebase project name > When asked "What alias do you want to use for this project?" input a new name  
+6 Run npm run build in the terminal  
+7 Run firebase deploy in the terminal to complete the initialization  
+
   
 ---
   
@@ -114,3 +165,28 @@ AVR 支援 中、英、日 多語言，
 🚀 擴展多國語言支援，讓更多人能夠參與與貢獻  
   
 加入 AVR，一起探索音樂的極限！ 🎵🔥  
+
+設定方法:  
+  
+Firebase初始化  
+1 至Firebase註冊帳戶  
+2 新增專案  
+3 新增應用程式，選擇網頁  
+4 新增Authentication > 電子郵件地址/密碼  
+5 新增Firestore Database > 位置(選擇離自己最近的地方) > 測試模式開始  
+  
+React初始化設定  
+1 將本專案下載至桌面並解壓縮  
+2 Node.js版本為20.18.2  
+3 在終端機執行 npm install  
+4 將Firebase專案設定 > SDK設定 > 將apikey資料存放到 .env 檔案  
+5 在終端機執行 npm start，即可在本地端開啟專案 完成初始化  
+  
+Firebase Hosting初始化  
+1 在Firebase新增Hosting  
+2 在終端機執行 npm install -g firebase-tools  
+3 在終端機執行 firebase login  
+4 在終端機執行 firebase init > 選擇 Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys > 按下空白鍵選擇 > 按下enter > 當詢問 What do you want to use as your public directory? 輸入 build > Configure as a single-page app (rewrite all urls to /index.html)? 輸入 y > Set up automatic builds and deploys with GitHub? 輸入 n  
+5 在終端機執行 firebase use --add > 當詢問 Which project do you want to add? 選擇你在Firebase上的專案名稱 > 當詢問 What alias do you want to use for this project? 輸入新名稱  
+6 在終端機執行 npm run build  
+7 在終端機執行 firebase deploy 完成初始化  
