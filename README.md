@@ -67,7 +67,10 @@ Firebase Hostingの初期化
 5 ターミナルで firebase use --add を実行 > 「Which project do you want to add?」の質問でFirebaseのプロジェクト名を選択 > 「What alias do you want to use for this project?」で新しい名前を入力  
 6 ターミナルで npm run build を実行  
 7 ターミナルで firebase deploy を実行 初期化完了  
-
+  
+注：Hostingの手順を完了した後、ホームページに正しくリダイレクトされない場合は、ブラウザのキャッシュをクリアしてください。  
+Chrome: 設定 > プライバシーとセキュリティ > 閲覧履歴データの削除  
+  
   
 ---
 
@@ -130,6 +133,9 @@ Firebase Hosting Initialization
 6 Run npm run build in the terminal  
 7 Run firebase deploy in the terminal to complete the initialization  
 
+Note: If the homepage does not redirect correctly after completing the Hosting steps, please clear your browser cache.  
+Chrome: Settings > Privacy and Security > Clear Browsing Data  
+  
   
 ---
   
@@ -190,3 +196,6 @@ Firebase Hosting初始化
 5 在終端機執行 firebase use --add > 當詢問 Which project do you want to add? 選擇你在Firebase上的專案名稱 > 當詢問 What alias do you want to use for this project? 輸入新名稱  
 6 在終端機執行 npm run build  
 7 在終端機執行 firebase deploy 完成初始化  
+  
+註：如果在完成 Hosting 步驟後無法正確導向首頁，請清除瀏覽器快取。  
+Chrome: 設定 > 隱私權與安全性 > 清除瀏覽資料  
